@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // Database Connection
 mongoose
   .connect(
-    "mongodb+srv://Pratham18:Pratham@cluster0.fmgqd.mongodb.net/User?retryWrites=true&w=majority",
+    "mongodb+srv://<password>:<username>@cluster0.fmgqd.mongodb.net/User?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
